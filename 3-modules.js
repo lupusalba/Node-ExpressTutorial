@@ -3,8 +3,11 @@
 
 const names = require('./4-names')
 const sayHi = require('./5-utils')
+const data = require('./6-alternative-modules')
 
 // console.log(names)
+
+console.log(data)
 
 sayHi('regar')
 sayHi(names.jon)
